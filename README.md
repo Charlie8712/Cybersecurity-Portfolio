@@ -9,11 +9,13 @@ Developed an AWS-based IAM anomaly detection system that analyzes CloudTrail act
 
 [View AWS IAM Anomaly Detection System Repository](https://github.com/Charlie8712/AnomAI)
 
+### Phishing Email Detection System
+Developed a machine learning-based phishing email detection system using TF-IDF textual analysis and structural email features including URL count and message metadata. Trained and evaluated a logistic regression classifier on balanced datasets to improve phishing detection accuracy and reduce false positives.
+
+[View Phishing Email Detection System Repository](https://github.com/Charlie8712/phishing-email-detector/tree/main)
+
 ### Mininet SDN Project
 Configured and tested a virtual SDN network topology using Mininet and MiniEdit, performing routing, subnetting, TCP/UDP socket analysis, firewall configuration, and inter-network connectivity troubleshooting using Linux networking tools and iPerf.
 
 ### TCP/IP Security Attack & Defense Project
 Conducted TCP/IP attack simulations in a Docker-based Linux environment using Wireshark, Scapy, Python, and Linux networking tools to analyze SYN flooding, TCP RST injection, session hijacking, and SYN cookie mitigation techniques.
-
-### Phishing Email Detection System
-Developed a machine learning-based phishing email detection system using TF-IDF textual analysis and structural email features including URL count and message metadata. Trained and evaluated a logistic regression classifier on balanced datasets to improve phishing detection accuracy and reduce false positives.
