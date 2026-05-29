@@ -134,8 +134,3 @@ Project_3/
 * API or web application integration
 * Enterprise-scale dataset evaluation
 
----
-
-## Author
-
-Charlie Iglesias
