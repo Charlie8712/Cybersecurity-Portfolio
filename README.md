@@ -9,8 +9,6 @@ Developed an AWS-based IAM anomaly detection system that analyzes CloudTrail act
 
 [View AWS IAM Anomaly Detection System Repository](https://github.com/YOURUSERNAME/aws-iam-anomaly-detection)
 
-![AWS Architecture](aws-architecture.png)
-
 ### Mininet SDN Project
 Configured and tested a virtual SDN network topology using Mininet and MiniEdit, performing routing, subnetting, TCP/UDP socket analysis, firewall configuration, and inter-network connectivity troubleshooting using Linux networking tools and iPerf.
 
