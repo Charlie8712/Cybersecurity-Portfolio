@@ -7,7 +7,9 @@ Cybersecurity and networking portfolio featuring hands on projects in threat det
 ### AWS IAM Anomaly Detection System
 Developed an AWS-based IAM anomaly detection system that analyzes CloudTrail activity to identify suspicious behavior using statistical thresholds, deployed with Lambda, S3, and DynamoDB as part of a team project.
 
-[View Project Repository](https://github.com/YOURUSERNAME/aws-iam-anomaly-detection)
+[View AWS IAM Anomaly Detection System Repository](https://github.com/YOURUSERNAME/aws-iam-anomaly-detection)
+
+![AWS Architecture](aws-architecture.png)
 
 ### Mininet SDN Project
 Configured and tested a virtual SDN network topology using Mininet and MiniEdit, performing routing, subnetting, TCP/UDP socket analysis, firewall configuration, and inter-network connectivity troubleshooting using Linux networking tools and iPerf.
