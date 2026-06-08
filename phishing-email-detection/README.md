@@ -105,7 +105,7 @@ These visualizations provide insight into dataset imbalance handling and model p
 Phishing-Email-Detection/
 │
 ├── src/                           # Core machine learning pipeline
-│   ├── clean_merge.py            # Data preprocessing + dataset निर्माण
+│   ├── clean_merge.py            # Data preprocessing and dataset creation 
 │   ├── parse_ham.py              # Legitimate email parser
 │   ├── parse_phishing.py         # Phishing dataset parser
 │   ├── train_model.py            # Baseline TF-IDF model
