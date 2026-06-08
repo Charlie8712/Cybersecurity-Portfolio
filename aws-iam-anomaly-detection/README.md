@@ -30,4 +30,4 @@ Developed a cloud-based anomaly detection system that monitors AWS IAM activity 
 
 ## Repository
 
-[View Full Source Code](https://github.com/Charlie8712/AnomAI)
+[View the Full AWS IAM Anomaly Detection System Repository:](https://github.com/Charlie8712/AnomAI)
