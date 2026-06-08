@@ -110,9 +110,9 @@ Project_3/
 
 ### Confusion Matrix
 
-![Confusion Matrix](graphs/confusion_matrix.png)
+![Confusion Matrix](<img src="graphs/confusion_matrix.png" width="500">)
 
-<img src="graphs/confusion_matrix.png" width="500">
+
 ---
 
 ## Skills Demonstrated
