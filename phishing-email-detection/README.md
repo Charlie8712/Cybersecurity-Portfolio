@@ -100,8 +100,9 @@ Project_3/
 
 ## Visual Results
 
-<p align="center">
-  <img src="graphs/confusion_matrix.png" width="500">
+<p>
+  <img src="graphs/confusion_matrix.png" width="400">
+  <img src="graphs/class_distribution.png" width="400">
 </p>
 
 ### Class Distribution Before Oversampling
