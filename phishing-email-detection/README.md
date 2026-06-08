@@ -102,7 +102,7 @@ Project_3/
 
 ### Class Distribution Before Oversampling
 
-![Class Distribution Before](class_distribution_before.png)
+![Class Distribution Before](graphs/class_distribution_before.png)
 
 ### Class Distribution After Oversampling
 
