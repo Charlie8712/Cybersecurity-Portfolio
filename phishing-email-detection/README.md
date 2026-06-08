@@ -100,6 +100,10 @@ Project_3/
 
 ## Visual Results
 
+<p align="center">
+  <img src="graphs/confusion_matrix.png" width="500">
+</p>
+
 ### Class Distribution Before Oversampling
 
 ![Class Distribution Before](graphs/class_distribution_before.png)
