@@ -34,4 +34,4 @@ Performed hands-on analysis of common TCP/IP vulnerabilities within a controlled
 
 ## Documentation
 
-[View Full Lab Report](docs/Network Traffic Analysis and Packet Inspection.pdf)
+[View Full Lab Report](docs/tcp_ip_security_lab_report.pdf)
