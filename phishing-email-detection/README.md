@@ -102,11 +102,11 @@ Project_3/
 
 ### Class Distribution Before Oversampling
 
-![Class Distribution Before](graphs/class_distribution_before.png)
+<img src="graphs/class_distribution_before.png" width="500">
 
 ### Class Distribution After Oversampling
 
-![Class Distribution After](graphs/class_distribution_after.png)
+<img src="graphs/class_distribution_after.png" width="500">
 
 ### Confusion Matrix
 
