@@ -126,6 +126,14 @@ Project_3/
 
 ---
 
+## Documentation
+
+Full technical report available here:
+
+[Project Report](docs/phishing_detection_report.pdf)
+
+---
+
 ## Future Improvements
 
 * Real-time phishing detection deployment
