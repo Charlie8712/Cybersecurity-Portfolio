@@ -110,7 +110,7 @@ Project_3/
 
 ### Confusion Matrix
 
-![Confusion Matrix](<img src="graphs/confusion_matrix.png" width="500">)
+<img src="graphs/confusion_matrix.png" width="500">
 
 
 ---
