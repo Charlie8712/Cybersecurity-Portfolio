@@ -1,143 +1,144 @@
-# Detecting Phishing Emails via Textual and Structural Analysis
+# Phishing Email Detection System
 
 ## Overview
 
-This project implements a machine learning–based phishing email detection system that combines Natural Language Processing (NLP) with structural email analysis to improve phishing classification accuracy.
+This project implements a machine learning–based phishing email detection system designed to classify emails as either **phishing** or **legitimate** using a combination of **natural language processing (NLP)** and **structural email analysis**.
 
-The system analyzes both textual content and structural metadata commonly associated with phishing attacks, allowing it to better distinguish malicious emails from legitimate messages.
-
----
-
-## Key Features
-
-* TF-IDF textual feature extraction
-* Structural email analysis
-* URL count detection
-* Subject and body length analysis
-* Dataset balancing using Random Oversampling
-* Logistic Regression classification model
-* Automated preprocessing and evaluation pipeline
-* Confusion matrix and dataset visualization generation
+The system is built to detect modern phishing attempts by analyzing both the **textual content** of emails and their **structural characteristics**, improving detection robustness compared to approaches that rely on a single feature type.
 
 ---
 
-## Technologies Used
+## Key Capabilities
 
-* Python
-* Scikit-learn
-* Pandas
-* NumPy
-* Matplotlib
-* Natural Language Processing (NLP)
-* TF-IDF Vectorization
-* Logistic Regression
+- Hybrid feature extraction (text + structure)
+- TF-IDF-based natural language processing
+- Detection of suspicious structural patterns (e.g., URL frequency, email length features)
+- Dataset balancing using oversampling techniques
+- Supervised classification using Logistic Regression
+- Full evaluation pipeline with performance metrics and visualization
 
 ---
 
-## Project Structure
+## Full Project Repository
 
-```bash
-Project_3/
-│
-├── data/
-│   ├── emails_cleaned.csv
-│   ├── ham_clean.csv
-│   └── phishing_clean.csv
-│
-├── graphs/
-│   ├── class_distribution_before.png
-│   ├── class_distribution_after.png
-│   └── confusion_matrix.png
-│
-├── models/
-│   ├── phishing_detector_v3.pkl
-│   └── vectorizer_v3.pkl
-│
-├── src/
-│   ├── clean_merge.py
-│   ├── parse_ham.py
-│   ├── parse_phishing.py
-│   ├── train_model.py
-│   ├── train_model_with_features.py
-│   └── generate_graphs.py
-│
-└── README.md
-```
+View source code and implementation:
+[Phishing Email Detection Repository]([LINK_HERE](https://github.com/Charlie8712/phishing-email-detector/tree/main))
 
 ---
 
-## Machine Learning Pipeline
+## Methodology
 
-1. Parse and preprocess phishing and legitimate email datasets
-2. Clean and normalize textual email content
-3. Extract TF-IDF textual features
-4. Extract structural features:
+The detection pipeline follows a structured machine learning workflow:
 
-   * URL count
-   * Subject length
-   * Body length
-5. Balance dataset using Random Oversampling
-6. Train Logistic Regression classifier
-7. Evaluate performance using classification metrics and visualizations
+1. **Data Ingestion & Parsing**
+   - Emails are collected from multiple public phishing datasets and legitimate email sources.
+   - Data is standardized into a unified format (subject, body, label).
+
+2. **Preprocessing**
+   - Text normalization (lowercasing, noise removal)
+   - Feature merging of subject and body content
+
+3. **Feature Engineering**
+   - TF-IDF vectorization for textual representation
+   - Structural feature extraction:
+     - URL count per email
+     - Subject length
+     - Body length
+
+4. **Class Imbalance Handling**
+   - Random oversampling applied to balance dataset distribution
+
+5. **Model Training**
+   - Logistic Regression classifier trained on combined feature set
+   - Stratified train-test split ensures balanced evaluation
+
+6. **Evaluation**
+   - Accuracy, precision, recall, and F1-score
+   - Confusion matrix analysis
+   - Visual performance comparisons
 
 ---
 
 ## Results
 
-### Final Model Performance
+The final model demonstrates strong classification performance:
 
-* Accuracy: **99.94%**
-* High precision and recall across both classes
-* Minimal false positives and false negatives
+- **Accuracy:** ~99.9%
+- High precision and recall across both phishing and legitimate classes
+- Low false positive and false negative rates
+- Strong generalization after dataset balancing
 
-### Key Findings
-
-* Combining textual and structural analysis significantly improved phishing detection performance
-* Dataset balancing improved legitimate email recall
-* Structural metadata enhanced detection of phishing attempts using realistic language patterns
+The results indicate that combining textual and structural signals significantly improves phishing detection effectiveness compared to single-feature approaches.
 
 ---
 
-## Visual Results
+## Visual Outputs
 
-### Class Distribution Before Oversampling
+The project includes the following evaluation visualizations:
 
-<img src="graphs/class_distribution_before.png" width="500">
+- Class distribution before balancing
+- Class distribution after oversampling
+- Confusion matrix analysis
 
-### Class Distribution After Oversampling
-
-<img src="graphs/class_distribution_after.png" width="500">
-
-### Confusion Matrix
-
-<img src="graphs/confusion_matrix.png" width="500">
-
+These visualizations provide insight into dataset imbalance handling and model performance behavior.
 
 ---
 
-## Skills Demonstrated
+## Technologies Used
 
-* Cybersecurity threat analysis
-* Machine learning model development
-* Natural language processing
-* Feature engineering
-* Dataset preprocessing and balancing
-* Python scripting and automation
-* Model evaluation and validation
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Natural Language Processing (NLP)
+- TF-IDF Vectorization
+- Logistic Regression
+- Imbalanced-learn
+
+---
+
+## Project Structure
+
+```
+
+Phishing-Email-Detection/
+│
+├── src/                           # Core machine learning pipeline
+│   ├── clean_merge.py            # Data preprocessing + dataset निर्माण
+│   ├── parse_ham.py              # Legitimate email parser
+│   ├── parse_phishing.py         # Phishing dataset parser
+│   ├── train_model.py            # Baseline TF-IDF model
+│   ├── train_model_with_features.py  # Final hybrid model (text + structure)
+│   ├── generate_graphs.py        # Evaluation visualizations
+│
+├── graphs/                        # Model evaluation outputs
+│   ├── class_distribution_before.png
+│   ├── class_distribution_after.png
+│   ├── confusion_matrix.png
+│
+├── data/                          # Cleaned datasets
+│   └── ham_clean.csv             # Legitimate email dataset sample
+│
+├── .gitignore                     # Git ignore rules for large files
+├── README.md                      # Project documentation
+```
+
+---
+
+## Key Takeaways
+
+- Hybrid feature engineering improves phishing detection reliability
+- Structural email patterns provide strong signals when combined with NLP features
+- Class imbalance handling is critical for realistic performance evaluation
+- Lightweight models such as Logistic Regression can still achieve strong results with proper feature design
 
 ---
 
 ## Future Improvements
 
-* Real-time phishing detection deployment
-* Additional structural feature extraction
-* Deep learning experimentation
-* API or web application integration
-* Enterprise-scale dataset evaluation
+- Real-time email scanning integration
+- Deep learning-based classification models
+- Additional metadata features (sender domain analysis, header inspection)
+- Deployment as a browser extension or API service
 
----
-
-## Documentation
-
-Full technical report available here:
-[Project Report](docs/phishing_detection_report.pdf)
