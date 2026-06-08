@@ -142,3 +142,9 @@ Phishing-Email-Detection/
 - Additional metadata features (sender domain analysis, header inspection)
 - Deployment as a browser extension or API service
 
+---
+
+## Documentation
+
+Full technical report available here:
+[Project Report](docs/phishing_detection_report.pdf)
