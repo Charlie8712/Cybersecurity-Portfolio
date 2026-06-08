@@ -106,11 +106,11 @@ Project_3/
 
 ### Class Distribution After Oversampling
 
-![Class Distribution After](class_distribution_after.png)
+![Class Distribution After](graphs/class_distribution_after.png)
 
 ### Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](graphs/confusion_matrix.png)
 
 ---
 
