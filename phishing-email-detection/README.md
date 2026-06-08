@@ -22,7 +22,7 @@ The system is built to detect modern phishing attempts by analyzing both the **t
 ## Full Project Repository
 
 View source code and implementation:
-[Phishing Email Detection Repository]((https://github.com/Charlie8712/phishing-email-detector/tree/main))
+[Phishing Email Detection Repository](https://github.com/Charlie8712/phishing-email-detector/tree/main)
 
 ---
 
