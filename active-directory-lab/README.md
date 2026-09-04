@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Built a virtualized Windows enterprise environment using Windows Server 2022 and Windows 11 Pro to gain hands-on experience with Active Directory administration and common Help Desk tasks.
+Built a virtualized Windows environment using Windows Server 2022 and Windows 11 Pro to gain hands on experience with Active Directory administration and common help desk tasks
 
-The lab simulated user and computer administration, account management, Group Policy, file permissions, domain joining, remote access, and endpoint patch management.
+The lab simulated user and computer administration, account management, Group Policy, file permissions, domain joining, remote access, and endpoint patch management
 
 ## Lab Environment
 
@@ -32,17 +32,17 @@ The lab simulated user and computer administration, account management, Group Po
 
 ### Active Directory & User Management
 
-* Deployed Windows Server 2022 as a Domain Controller.
-* Created the `charlie.local` Active Directory domain.
-* Created and managed user accounts using Active Directory Users and Computers.
-* Practiced disabling/enabling accounts, account expiration, logon-hour restrictions, and account lockout recovery.
+* Deployed Windows Server 2022 as a Domain Controller
+* Created the `charlie.local` Active Directory domain
+* Created and managed user accounts using Active Directory Users and Computers
+* Practiced disabling/enabling accounts, account expiration, logon-hour restrictions, and account lockout recovery
 
 ### Domain & Workstation Administration
 
-* Configured a Windows 11 Pro workstation and joined it to the `charlie.local` domain.
-* Tested network connectivity and domain communication.
-* Logged into the workstation using an Active Directory user account.
-* Performed remote access testing between the server and client.
+* Configured a Windows 11 Pro workstation and joined it to the `charlie.local` domain
+* Tested network connectivity and domain communication
+* Logged into the workstation using an Active Directory user account
+* Performed remote access testing between the server and client
 
 ### Group Policy
 
@@ -58,17 +58,17 @@ Configured and tested Group Policy settings including:
 
 ### File & Access Management
 
-* Created shared folders for different departments.
-* Created security groups to manage access to shared resources.
-* Assigned users to security groups.
-* Configured and tested NTFS and network share permissions.
+* Created shared folders for different departments
+* Created security groups to manage access to shared resources
+* Assigned users to security groups
+* Configured and tested NTFS and network share permissions
 
 ### Patch Management
 
-* Connected the Windows Server environment to Action1.
-* Deployed the Action1 agent.
-* Identified and deployed missing Windows updates.
-* Reviewed patch management, vulnerability, and installed software reports.
+* Connected the Windows Server environment to Action1
+* Deployed the Action1 agent
+* Identified and deployed missing Windows updates
+* Reviewed patch management, vulnerability, and installed software reports
 
 ## Skills Demonstrated
 
@@ -88,9 +88,9 @@ Configured and tested Group Policy settings including:
 
 ## Results
 
-Successfully built and tested a functional Active Directory environment consisting of a Windows Server 2022 Domain Controller and Windows 11 domain-joined workstation. The lab provided hands-on experience with administrative and troubleshooting tasks commonly performed by Help Desk and IT Support technicians.
+Successfully built and tested a functional Active Directory environment consisting of a Windows Server 2022 Domain Controller and Windows 11 domain-joined workstation. The lab provided hands on experience with administrative and troubleshooting tasks commonly performed by help desk and IT Support technicians
 
 ## Technical Evidence
 
-Screenshots and detailed documentation are included in the project documentation to demonstrate the configuration and testing performed throughout the lab.
+Screenshots and detailed documentation are included in the project documentation to demonstrate the configuration and testing performed throughout the lab
 
