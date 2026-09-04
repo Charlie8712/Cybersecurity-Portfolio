@@ -29,6 +29,8 @@ Developed a machine learning-based phishing email detection system using TF-IDF 
 ### Mininet SDN Project
 Configured and tested a virtual SDN network topology using Mininet and MiniEdit, performing routing, subnetting, TCP/UDP socket analysis, firewall configuration, and inter-network connectivity troubleshooting using Linux networking tools and iPerf.
 
+[View Mininet SDN Project Repository](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/mininet-sdn-lab)
+
 ---
 
 ### TCP/IP Security Attack & Defense Project
