@@ -6,7 +6,7 @@ Cybersecurity and networking portfolio featuring hands on projects in threat det
 
 ### Active Directory Help Desk Home Lab
 
-Built a virtualized Windows enterprise environment using Windows Server 2022, Windows 11 Pro, and Active Directory to simulate common Help Desk and IT support tasks. Configured user accounts, security groups, domain joining, Group Policy, file permissions, account management, and endpoint patch management using Action1.
+Built a virtualized Windows environment using Windows Server 2022, Windows 11 Pro, and Active Directory to simulate common help desk and IT support tasks. Configured user accounts, security groups, domain joining, Group Policy, file permissions, account management, and endpoint patch management using Action1.
 
 [View Active Directory Help Desk Home Lab Repository](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/active-directory-lab)
 
