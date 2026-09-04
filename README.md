@@ -8,7 +8,7 @@ Cybersecurity and networking portfolio featuring hands on projects in threat det
 
 Built a virtualized Windows environment using Windows Server 2022, Windows 11 Pro, and Active Directory to simulate common help desk and IT support tasks. Configured user accounts, security groups, domain joining, Group Policy, file permissions, account management, and endpoint patch management using Action1.
 
-[View Active Directory Help Desk Home Lab Repository](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/active-directory-lab)
+[View Active Directory Help Desk Home Lab Project](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/active-directory-lab)
 
 ---
 
@@ -29,9 +29,11 @@ Developed a machine learning-based phishing email detection system using TF-IDF 
 ### Mininet SDN Project
 Configured and tested a virtual SDN network topology using Mininet and MiniEdit, performing routing, subnetting, TCP/UDP socket analysis, firewall configuration, and inter-network connectivity troubleshooting using Linux networking tools and iPerf.
 
-[View Mininet SDN Project Repository](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/mininet-sdn-lab)
+[View Mininet SDN Project Project](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/mininet-sdn-lab)
 
 ---
 
 ### TCP/IP Security Attack & Defense Project
 Conducted TCP/IP attack simulations in a Docker-based Linux environment using Wireshark, Scapy, Python, and Linux networking tools to analyze SYN flooding, TCP RST injection, session hijacking, and SYN cookie mitigation techniques.
+
+[View TCP/IP Security Attack & Defense Project](https://github.com/Charlie8712/Cybersecurity-Portfolio/tree/main/tcp-ip-security-lab)
